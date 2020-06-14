@@ -1,0 +1,31 @@
+ #NASA { 
+    display: flex;
+    background-image: url("nasapic.jpg");
+    background-position: center;
+    height: 450px;
+    margin: auto;
+    width: 850px;
+    background-repeat: no-repeat;
+}
+
+ h1 {
+    display: flex; 
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+}
+
+ main {   
+        display: flex;    
+        flex-direction: row;    
+        justify-content: space-evenly;   
+        background-color: #E6E6E6;    
+        max-width: 850px;      
+        height: 324px;    
+        margin-top: 20px;    
+        margin-left: auto;    
+        margin-right: auto;    
+        font-family:'Open Sans', sans-serif;
+    }
